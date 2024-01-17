@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../static/CSS/index.css">
+    {% block head%}
+    {% endblock %}
+</head>
+
+<nav>
+    <div class="Logo">
+    <a href="index"><img src="../static/Media/Images/San Jose Sharks Logo.png"></a>
+    </div>
+
+    <ul>
+        <li><a href="index"><strong>Home</strong></a></li>
+        <li><a href="aboutus"><strong>About Us</strong></a></li>
+        <li><a href="contact"><strong>Contact Us</strong></a></li>
+        <li><a href="cart"><img src="../static/Media/Images/Transparent Cart.png" style="height: 30px; width: 30px; align-items: center;"></a></li>
+        
+    </ul>
+</nav>
+
+<body>
+    <div class="MainContent">
+{%block body%}
+{%endblock%}
+Unacceptable
+    </div>
+</body>
+ 
+<div class="BottomNavbar">
+    <div class ="Links">    
+        <div class="col">
+            <p>Affiliate Links</p>
+            <li><a href="link.com">Link.com</a></li>
+            <li><a href="link.com">Link.com</a></li>
+            <li><a href="link.com">Link.com</a></li>
+        </div>
+        <div class="col">    
+            <p>Affiliate Links 2</p>      
+            <li><a href="link.com">LinkTwo.com</a></li>
+            <li><a href="link.com">LinkTwo.com</a></li>
+            <li><a href="link.com">LinkTwo.com</a></li>
+        </div>
+        <div class="col">
+            <p>Affiliate Links 3</p>
+            <li><a href="link.com">LinkThree.com</a></li>
+            <li><a href="link.com">LinkThree.com</a></li>
+            <li><a href="link.com">LinkThree.com</a></li>
+        </div>
+    </div>
+</div>
