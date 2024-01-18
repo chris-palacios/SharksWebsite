@@ -2,6 +2,9 @@
 
 <head>
     <link rel="stylesheet" href="../static/CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     {% block head%}
     {% endblock %}
 </head>
@@ -15,8 +18,6 @@
         <li><a href="index"><strong>Home</strong></a></li>
         <li><a href="aboutus"><strong>About Us</strong></a></li>
         <li><a href="contact"><strong>Contact Us</strong></a></li>
-        <li><a href="cart"><img src="../static/Media/Images/Transparent Cart.png" style="height: 30px; width: 30px; align-items: center;"></a></li>
-        
     </ul>
 </nav>
 
@@ -24,29 +25,32 @@
     <div class="MainContent">
 {%block body%}
 {%endblock%}
-Unacceptable
+
+
+
+
+</div>
+
+    <div class="BottomNavbar">
+        <div class ="Links">    
+            <div class="col">
+                <p>Useful Links</p>
+                <li><a href="https://www.nhl.com/sharks/">Official NHL Website</a></li>
+                <li><a href="https://www.capfriendly.com/teams/sharks/">Cap Friendly</a></li>
+                <li><a href="https://lockedonpodcasts.com/podcasts/locked-on-sharks/">Locked On Network</a></li>
+            </div>
+            <div class="col">    
+                <p>Careers</p>
+                <li><a href="https://www.sapcenter.com/employment-opportunities">SAP Center Jobs</a></li>
+                <li><a href="https://jobs.disneycareers.com/espn">ESPN Jobs</a></li>
+                <li><a href="https://jobs.rogers.com/go/Rogers-Sports-and-Media/8824500/">Rogers Media Jobs</a></li>
+            </div>
+            <div class="col">
+                <p>Contact</p>
+                <li><a href="contact">Contact Us</a></li>
+                <li><a href="reportIssue">Report a bug</a></li>
+            </div>
+        </div>
     </div>
 </body>
  
-<div class="BottomNavbar">
-    <div class ="Links">    
-        <div class="col">
-            <p>Affiliate Links</p>
-            <li><a href="link.com">Link.com</a></li>
-            <li><a href="link.com">Link.com</a></li>
-            <li><a href="link.com">Link.com</a></li>
-        </div>
-        <div class="col">    
-            <p>Affiliate Links 2</p>      
-            <li><a href="link.com">LinkTwo.com</a></li>
-            <li><a href="link.com">LinkTwo.com</a></li>
-            <li><a href="link.com">LinkTwo.com</a></li>
-        </div>
-        <div class="col">
-            <p>Affiliate Links 3</p>
-            <li><a href="link.com">LinkThree.com</a></li>
-            <li><a href="link.com">LinkThree.com</a></li>
-            <li><a href="link.com">LinkThree.com</a></li>
-        </div>
-    </div>
-</div>

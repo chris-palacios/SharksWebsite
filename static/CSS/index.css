@@ -1,13 +1,20 @@
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 li{
     list-style-type: none;
 }
 nav {
     padding: 30px;
-    background: linear-gradient(#006D75, #3632328b);
+    background: #02545a; /*linear-gradient(#02545a, #3632328b);*/
     margin: 0em;
 }
 nav .Logo a {
@@ -33,25 +40,24 @@ nav a {
 }
 
 body{
-    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
     margin: 0;
+    background-color:aliceblue;
+    bottom: 0%;
 }
 
 .MainContent {
-    background-color: rgb(105, 105, 105);
-    height: 100%;
-    width: 90%;
-    margin-top: 0%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 0%;
-    position: fixed;
+    position: relative;
+    width: 100%;
+    margin-top: 0%; 
+    
    
 }
 
 .BottomNavbar {
-    position: fixed;
-    bottom: 0;
+    height:20%;
+    position:absolute;
     background-color: rgb(32, 32, 32);
     width: 100%;
 }
@@ -75,8 +81,30 @@ body{
     padding-right: 10%;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 .col p {
-    font-size: larger;
+    font-size: larger;  
     color: rgb(190, 189, 189);
+}
+.col a {
+    font-weight: 300;
+}
+
+.latestArticle {
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.latestArticle img {
+    width: 500px;
+    height: 400px;
+}
+
+
+
+.videoSection {
+    margin-left: 5%;
+    margin-bottom: 20%;
+
 }
