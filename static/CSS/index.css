@@ -101,8 +101,19 @@ body{
     height: 400px;
 }
 
+/* Fix the Lastest article to be a image first then text to right
+ __________________
+|                  |   Article Title
+|                  |
+|     o       o    |   dslad;lmasl;dml;asdml;sadmsaldsaldm
+|   \           /  |   ;lasdkl;sakdl;sadklsadklsa;dklsadlk
+|    \_________/   |   ;sldj;lsadl;sadkl;sadl; ...read more
+|__________________|
 
 
+
+
+*/
 .videoSection {
     margin-left: 5%;
     margin-bottom: 20%;
