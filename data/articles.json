@@ -1,0 +1,77 @@
+{"article":[
+    {
+        "id":"1",
+        "title":"OMG THIS IS THE HOTTEST ARTICLE", 
+        "content":"This is the main content", 
+        "location":"Boston",
+        "author":"Joe Pohoryles", 
+        "date-posted":"January 18, 2024",
+        "article-url":"data\\articlesText\\article_1.txt",
+        "photo":"../static/Media/Images/HockeyStock.jpg"
+    },
+    {
+        "id":"2",
+        "title":"Pastrnak scores hat trick, Bruins top Avalanche to push point streak to 7", 
+        "content":"David Pastrnak scored a hat trick, and the Boston Bruins extended their point streak to seven games with a 5-2 win against the Colorado Avalanche at TD Garden on Thursday.", 
+        "location":"Boston",
+        "author":"Joe Pohoryles", 
+        "date-posted":"January 18, 2024",
+        "article-url":"data\\articlesText\\article_1.txt",
+        "photo":"../static/Media/Images/HockeyStock2.jpg"
+    },
+    {
+        "id":"3",
+        "title":"Pastrnak scores hat trick, Bruins top Avalanche to push point streak to 7", 
+        "content":"David Pastrnak scored a hat trick, and the Boston Bruins extended their point streak to seven games with a 5-2 win against the Colorado Avalanche at TD Garden on Thursday.", 
+        "location":"Boston",
+        "author":"Joe Pohoryles", 
+        "date-posted":"January 18, 2024",
+        "article-url":"data\\articlesText\\article_1.txt",
+        "photo":"../static/Media/Images/HockeyStock3.jpg"
+    },
+    {
+        "id":"4",
+        "title":"Pastrnak scores hat trick, Bruins top Avalanche to push point streak to 7", 
+        "content":"David Pastrnak scored a hat trick, and the Boston Bruins extended their point streak to seven games with a 5-2 win against the Colorado Avalanche at TD Garden on Thursday.", 
+        "location":"Boston",
+        "author":"Joe Pohoryles", 
+        "date-posted":"January 18, 2024",
+        "article-url":"data\\articlesText\\article_1.txt",
+        "photo":"../static/Media/Images/HockeyStock4.jpg"
+    },
+    {
+        "id":"5",
+        "title":"Pastrnak scores hat trick, Bruins top Avalanche to push point streak to 7", 
+        "content":"David Pastrnak scored a hat trick, and the Boston Bruins extended their point streak to seven games with a 5-2 win against the Colorado Avalanche at TD Garden on Thursday.", 
+        "location":"Boston",
+        "author":"Joe Pohoryles", 
+        "date-posted":"January 18, 2024",
+        "article-url":"data\\articlesText\\article_1.txt",
+        "photo":"../static/Media/Images/HockeyStock5.jpg"
+    },
+    {
+        "id":"6",
+        "title":"Pastrnak scores hat trick, Bruins top Avalanche to push point streak to 7", 
+        "content":"David Pastrnak scored a hat trick, and the Boston Bruins extended their point streak to seven games with a 5-2 win against the Colorado Avalanche at TD Garden on Thursday.", 
+        "location":"Boston",
+        "author":"Joe Pohoryles", 
+        "date-posted":"January 18, 2024",
+        "article-url":"data\\articlesText\\article_1.txt",
+        "photo":"../static/Media/Images/HockeyStock.jpg"
+    },
+    {
+        "id":"7",
+        "title":"Pastrnak scores hat trick, Bruins top Avalanche to push point streak to 7", 
+        "content":"David Pastrnak scored a hat trick, and the Boston Bruins extended their point streak to seven games with a 5-2 win against the Colorado Avalanche at TD Garden on Thursday.", 
+        "location":"Boston",
+        "author":"Joe Pohoryles", 
+        "date-posted":"January 18, 2024",
+        "article-url":"data\\articlesText\\article_1.txt",
+        "photo":"../static/Media/Images/HockeyStock2.jpg"
+    }
+
+    
+]
+
+
+}

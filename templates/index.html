@@ -1,11 +1,25 @@
 {% extends 'base.html' %}
+    <link rel="stylesheet" href="../static/CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 {% block body %}
 <h1>Current Sharks News</h1>
+<div class="article-section"></div>
 <div class="latestArticle">
-    <img src="../static/Media/Images/HockeyStock.jpg">
-    <h2>LATEST ARTICLE TITLE</h2>
-    <p>Article Preview with a character limit of 150 charcters</p>
+    <img src="{{article['article'][0]['photo']}}">
+    <h2>{{article['article'][0]['title']}}</h2>
+    <p>{{article['article'][0]['content']}}</p>
+</div>
+{% for article_num in range(1, 5) %}
+    <div class="article">
+            <img src="{{article['article'][article_num]['photo']}}">
+            <h2>Title: {{article['article'][article_num]['title']}} </h2>
+            <p>Author: {{article['article'][article_num]['author']}} </p>
+            <p>Content: {{article['article'][article_num]['content']}} </p>
+    </div>
+{% endfor %}
 </div>
 <div class="videoSection">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hG2acfD7j_k?si=9osfAa3q4nkSCy8G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
