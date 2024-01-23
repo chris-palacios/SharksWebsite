@@ -5,24 +5,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 {% block body %}
+<div class="Title">
 <h1>Current Sharks News</h1>
-<div class="article-section"></div>
-<div class="latestArticle">
-    <img src="{{article['article'][0]['photo']}}">
-    <h2>{{article['article'][0]['title']}}</h2>
-    <p>{{article['article'][0]['content']}}</p>
 </div>
-{% for article_num in range(1, 5) %}
+<div class="article-section">
+{% for article_num in range(0, 5) %}
+
     <div class="article">
-            <img src="{{article['article'][article_num]['photo']}}">
-            <h2>Title: {{article['article'][article_num]['title']}} </h2>
-            <p>Author: {{article['article'][article_num]['author']}} </p>
-            <p>Content: {{article['article'][article_num]['content']}} </p>
+        <img src="{{article['article'][article_num]['photo']}}">
+        <h2>Title: {{article['article'][article_num]['title']}} </h2>
+        <p>Author: {{article['article'][article_num]['author']}} </p>
     </div>
+
 {% endfor %}
 </div>
-<div class="videoSection">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hG2acfD7j_k?si=9osfAa3q4nkSCy8G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<div class="article">
+    <div class="videoSection">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hG2acfD7j_k?si=9osfAa3q4nkSCy8G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <h2>Title: Subtitle name </h2>
+    <p>Author: Author name </p>
 </div>
 
 {% endblock %}

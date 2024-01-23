@@ -16,6 +16,7 @@ li{
     list-style-type: none;
 }
 nav {
+    position: sticky;
     padding: 30px;
     background: #02545a; /*linear-gradient(#02545a, #3632328b);*/
     margin: 0em;
@@ -43,34 +44,29 @@ nav a {
 }
 
 body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
+    margin: 0%;
     background-color:aliceblue;
     bottom: 0%;
 }
 
-.MainContent {
-    position: relative;
-    width: 100%;
-    margin-top: 0%; 
+.Title {
+    margin-left: 5%;
+}
+
+/* .MainContent {
+    margin-top: 15%; 
     display: block;
     justify-items: center;
     float: left;
    
 }
-
+ */
 .BottomNavbar {
-    height:20%;
-    position:absolute;
+    height:15vh;
+    position:static;
     background-color: rgb(32, 32, 32);
     width: 100%;
 }
-
-.VerticalLine {
-    border-left: 1px solid green;
-    height: 30px;
-  }
 
 .Links{
     display: block;
@@ -97,6 +93,7 @@ body{
 }
 
 .latestArticle {
+    display: flex;
     margin-left: 5%;
 }
 
@@ -105,8 +102,24 @@ body{
     height: 400px;
 }
 
+.article-section{
+    overflow-wrap: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 0;
+/*     display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+ */
+}
+
+
 .article{
-    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    flex-basis: 20px;
 }
 .article img{
     width: 500px;
@@ -126,7 +139,6 @@ body{
 
 */
 .videoSection {
+    display: flex;
     margin-left: 5%;
-    margin-bottom: 20%;
-
 }
